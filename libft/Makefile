@@ -6,7 +6,7 @@
 #    By: apaz-pri <apaz-pri@student.42madrid.c      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/02 18:37:45 by apaz-pri          #+#    #+#              #
-#    Updated: 2024/10/02 18:39:10 by apaz-pri         ###   ########.fr        #
+#    Updated: 2024/10/16 18:27:24 by apaz-pri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,9 +36,9 @@ $(NAME): $(OBJ)
 	@ar rcs $@ $^
 
 clean:
-	rm -f $(OBJ)
+	@rm -f $(OBJ)
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
 
 re: fclean all
