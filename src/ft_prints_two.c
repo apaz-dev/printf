@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_prints_two.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jose <apaz-pri@student.42madrid.com>       +#+  +:+       +#+        */
+/*   By: apaz-pri <apaz-pri@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 16:25:22 by jose              #+#    #+#             */
-/*   Updated: 2024/10/15 16:25:24 by jose             ###   ########.fr       */
+/*   Updated: 2024/11/06 19:11:28 by apaz-pri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,11 @@ int	ft_print_pointer(unsigned long long pointer)
 	int		c;
 
 	c = 2;
+	if (pointer == 0)
+	{
+		ft_print_str("(nil)");
+		return (5);
+	}
 	ft_putchar_fd('0', 1);
 	ft_putchar_fd('x', 1);
 	c += ft_putpointer(pointer);
