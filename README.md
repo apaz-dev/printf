@@ -6,7 +6,7 @@ It supports the following formats:
 - `%c`: Character
 - `%s`: String of characters
 - `%p`: Pointer
-- `%d`: Decimal integer
+- `%d`: Negative/positive integer
 - `%i`: Integer
 - `%u`: Unsigned integer
 - `%x`: Hexadecimal integer (lowercase)
