@@ -6,9 +6,9 @@ It supports the following formats:
 - `%c`: Character
 - `%s`: String of characters
 - `%p`: Pointer
-- `%d`: Signed decimal integer
-- `%i`: Unsigned decimal integer
-- `%u`: Unsigned decimal integer
+- `%d`: Decimal integer
+- `%i`: Integer
+- `%u`: Unsigned integer
 - `%x`: Hexadecimal integer (lowercase)
 - `%X`: Hexadecimal integer (uppercase)
 - `%%`: Percentage
